@@ -35,6 +35,9 @@ build/Release
 # Dependency directories
 node_modules/
 jspm_packages/
+vendor/
+composer.lock
+package-lock.json
 
 # Typescript v1 declaration files
 typings/
@@ -61,3 +64,7 @@ typings/
 
 # flarum webpack
 v8-compile-cache-0
+
+# PhpStorm
+.idea
+js/package-lock.json
